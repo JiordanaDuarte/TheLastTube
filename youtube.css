@@ -1,0 +1,166 @@
+*{
+	padding: 0px;
+	margin: 0px;
+
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+body{
+	font-family: arial;
+}
+
+ul{
+	list-style: none;
+}
+
+img {
+	width: 40px;
+}
+
+input[type="checkbox"]
+{
+	display: none;
+}
+
+nav {
+	background: #ffffff;
+	width: 250px;
+	height: 1000px;
+	left: -350px;
+	position: absolute;
+	transition: all .5s;
+}
+
+input[type="checkbox"]:checked ~ nav
+{
+	transform: translateX(350px);
+}
+
+ul{
+	position: absolute;
+	top: 70px;
+	width: 100%;
+}
+
+nav a{
+	display: block;
+	padding: 15px 5px;
+}
+
+nav a:hover{
+	background: grey;
+
+}
+
+label{
+	padding: 20px;
+	position: absolute;
+	cursor: pointer;
+	z-index: 1;
+}
+
+.menuH {
+	width: 20px
+}
+
+.container {
+	width: 100%;
+	display: grid;
+	position: fixed;
+	z-index: 1;
+}
+
+.menu {
+	background: #ffffff;
+	height: 60px;
+	display: flex;
+}
+
+.Dimg {
+	display: flex;
+	margin: 10px 20px 5px 15px ;
+}
+
+.Dimg img {
+	margin: 0 15px 0 0 ;
+	width: 35px;
+}
+
+.menu .yt img {
+	width: 98px;
+	margin: 0 0 0 70px;
+}
+
+.menu input{
+	width: 100%;
+	height: 40px;
+ 	margin: 10px 10px 0 200px ;
+ 	border: 1px solid #ddd;
+ 	border-radius: 25px;
+ 	padding-left: 15px;
+}
+
+.fone {
+	padding: 15px 200px 0 0;
+}
+
+#vdP {
+	margin: 80px 0 0 0;
+}
+
+.video {
+	margin: 10px 0 0 60px;
+}
+
+.legendas {
+	display: flex;
+	margin-top: 10px;
+}
+
+button {
+	border-radius: 30px;
+	border: none;
+	padding: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+
+button:hover{
+	background: lightgrey;
+}
+
+button img {
+	width: 20px;
+	height: 20px;
+}
+
+.insc {
+	width: 100px;
+	margin-right: 20px;
+}
+
+.like {
+		width: 100px;
+		border-radius: 30px 0 0 30px;
+}
+
+.dislike {
+	border-radius: 0 30px 30px 0;
+}
+
+.dislike img {
+	width: 30px;
+	height: 30px;
+}
+
+.mais{
+	width: 39px;
+	padding: 5px;
+	border-radius: 50px;
+}
